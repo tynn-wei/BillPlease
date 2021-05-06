@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAMT" />
+
+    <EditText
+        android:id="@+id/etAmountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvNumPax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtPAX" />
+
+    <EditText
+        android:id="@+id/etNumPaxInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/tbNoSvs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnNOSVS"
+            android:textOff="@string/btnNOSVS"
+            android:textOn="@string/btnNOSVS" />
+
+        <ToggleButton
+            android:id="@+id/tbGst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnGST"
+            android:textOff="@string/btnGST"
+            android:textOn="@string/btnGST" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtDISC" />
+
+    <EditText
+        android:id="@+id/etDiscInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/rgPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/rbCASH" />
+
+        <RadioButton
+            android:id="@+id/rbPayNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbPAYNOW" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSplit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnSPLIT" />
+
+        <Button
+            android:id="@+id/btnRst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnRST" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTotalBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTotalBill" />
+
+    <TextView
+        android:id="@+id/tvEachPays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvEachPays" />
+
+</LinearLayout>
+
+
+

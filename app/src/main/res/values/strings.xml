@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bill Please</string>
+
+    <string name="txtAMT">Amount</string>
+    <string name="txtPAX">Num of Pax</string>
+
+    <string name="btnNOSVS">No SVS</string>
+    <string name="btnGST">GST</string>
+
+    <string name="txtDISC">Discount (%)</string>
+    <string name="rbCASH">Cash</string>
+    <string name="rbPAYNOW">PayNow</string>
+
+    <string name="btnSPLIT">Split</string>
+    <string name="btnRST">Reset</string>
+
+    <string name="txtTB">Total Bill: </string>
+    <string name="txtEP">Each Pays: </string>
+
+    <string name="tvTotalBill">Total Bill:</string>
+    <string name="tvEachPays">Each pays:</string>
+
+
+</resources>
